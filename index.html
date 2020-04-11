@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>	</title>
+</head>
+<body>
+	<div style="width: 100%; height: 100%; position: fixed; transition: 2s;" class="bg-dark menu">
+		<div style="width: 45%; height: 45%; margin-top: 250px; padding-top: 35px;  border-radius: 40px; transition: 1s;" class="mx-auto bg-danger">
+			<div style="width: 90% ; height: 90%;  border-radius: 30px; transition: 1s;" class="mx-auto bg-dark">
+				<button type="button" class="btn btn-light btn-1" style="margin-left: 300px; margin-top: 140px; transition: 1s;"><h1>НАЧАТЬ</h1></button>
+			</div>
+		</div>
+	</div>
+	<div style="background-image: url(imperia.jpg); width: 1920px ; height: 937px; transition: 1s" class="lvl">
+		<div class="img">
+			<div class="bg-warning" style="width: 200px; height: 400px;">
+				<h1>Найди : </h1>
+				<h4 class="i">Магистра Йоду</h4>
+				<h4 class="w">Мейса Винду</h4>
+				<h4 class="g">Генерала Гривуса</h4>
+				<h4 class="l">Люка Скайуокера</h4>
+				<h4 class="s">Дарта Сидиуса</h4>
+				<h4 class="k">Кайло Рена</h4>
+			</div>
+			<img src="ioda.png" style="position: absolute; width: 70px; height: 70px; left: 200px;" class="ioda img">
+		<img src="windu.png" style="position: absolute; width: 70px; height: 70px; left: 100px; top: 800px;" class="windu img">
+		<img src="luk.png" style="position: absolute; width: 70px; height: 70px; left: 1850px; top: 100px;" class="luk img">
+		<img src="kailo.png" style="position: absolute; width: 70px; height: 70px; left: 500px; top: 800px;" class="kailo img">
+		<img src="sidius.png" style="position: absolute; width: 70px; height: 70px; left: 600px; top: 350px;" class="sidius img">
+		<img src="grivus.png" style="position: absolute; width: 70px; height: 70px; left: 1850px; top: 867px;" class="grivus">
+		</div>
+	</div>
+	<div style="background-image: url(star.jpg); width: 1920px ; height: 937px; transition: 1s" class="star">
+		<div class="bg-warning"  style="width: 200px; height: 277px;"><h2>Сбей хотя-бы 5 истребителей империи </h2>
+			<h2>score: <span class="sc"></span></h2>
+		</div>
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 1850px; top: 100px;"   class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 850px; top: 200px;"   class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 0px; top: 600px;"    class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 0px; top: 800px;"    class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 1200px; top: 400px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 50px; top: 700px;"   class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 500px; top: 500px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 1050px; top: 867px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 700px; top: 867px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 850px; top: 100px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 50px; top: 867px;"     class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 1650px; top: 350px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 950px; top: 600px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 850px; top: 700px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 350px; top: 200px;"  class="istreb">
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 1750px; top: 800px;" class="istreb" >
+		<img src="istreb.png" style="position: absolute; width: 70px; height: 70px; left: 1550px; top: 650px;" class="istreb" >
+
+	</div>
+		<div style="background-image: url(test.webp); width: 1920px ; height: 937px; transition: 1s; position: fixed;" class="test">
+			<div class="bg-danger" style=" margin-top: 300px; margin-left: auto; margin-right: auto;" ><h1 >Ты славно потрудился!!!Галактика может спать спокойно, а ты можешь пойти поесть</h1></div>
+		</div>
+	<script type="text/javascript">
+		let grivus = document.querySelector(".grivus");
+		let ioda = document.querySelector(".ioda");
+		let windu = document.querySelector(".windu");
+		let luk = document.querySelector(".luk");
+		let kailo = document.querySelector(".kailo");
+		let sidius = document.querySelector(".sidius");
+		let box = document.querySelectorAll(".istreb");
+		let s = 0;
+		let test = document.querySelector(".test");
+
+		let score = 0;
+		let lvl = document.querySelector(".lvl");
+		let menu = document.querySelector(".menu");
+		let btn = document.querySelector(".btn-1");
+		let img = document.querySelectorAll(".img");
+		let star = document.querySelector(".star");
+		star.style.display = "none";
+		lvl.style.display = "none";
+		test.style.display = "none"
+
+		btn.onclick = function(){
+			alert("Приветствую тебя , найти всех ситхов и джедвев ты должен")
+			menu.style.opacity = 0;
+			lvl.style.display = "block";
+		}
+		grivus.onclick = function() {
+			alert("Поздравляю ты нашел генерала гривуса");
+			grivus.style.display = "none";
+			document.querySelector(".g").style.textDecoration = "line-through";
+			score++;
+			if (score == 6) {
+				lvl.style.display = "none";
+				star.style.display = "block";
+				alert("щас будет изи уровень джедая");
+			}
+		}
+		ioda.onclick = function() {
+			alert("Поздравляю ты нашел магистра йоду");
+			ioda.style.display = "none";
+			document.querySelector(".i").style.textDecoration = "line-through";
+			score++;
+			if (score == 6) {
+				lvl.style.display = "none";
+				star.style.display = "block";
+				alert("щас будет изи уровень джедая");
+			}
+		}
+		windu.onclick = function() {
+			alert("Поздравляю ты нашел Мейса Винду");
+			windu.style.display = "none";
+			document.querySelector(".w").style.textDecoration = "line-through";
+			score++;
+			if (score == 6) {
+				lvl.style.display = "none";
+				star.style.display = "block";
+				alert("щас будет изи уровень джедая");
+			}
+		}
+		luk.onclick = function() {
+			alert("Поздравляю ты нашел Люка Скайуокера");
+			luk.style.display = "none";
+			document.querySelector(".l").style.textDecoration = "line-through";
+			score++;
+			if (score == 6) {
+				lvl.style.display = "none";
+				star.style.display = "block";
+				alert("щас будет изи уровень джедая");
+			}
+		}
+		sidius.onclick = function() {
+			alert("Поздравляю ты нашел Дарта Сидиуса (Палапатина)");
+			sidius.style.display = "none";
+			document.querySelector(".s").style.textDecoration = "line-through";
+			score++;
+			if (score == 6) {
+				lvl.style.display = "none";
+				star.style.display = "block";
+				alert("щас будет изи уровень джедая");
+			}
+		}
+		kailo.onclick = function() {
+			alert("Поздравляю ты нашел Кайло Рена(Бена Соло)");
+			kailo.style.display = "none";
+			document.querySelector(".k").style.textDecoration = "line-through";
+			score++;
+			if (score == 6) {
+				lvl.style.display = "none";
+				star.style.display = "block";
+				alert("щас будет изи уровень джедая");
+			}
+		}
+		for (let i = 0; i < 17; i++) {
+			box[i].onclick = function(){
+				box[i].style.display = "none";
+				s++;
+				document.querySelector(".sc").innerHTML = s;
+				if (s == 5) {
+					star.style.display = "none";
+					test.style.display = "block"
+				}
+			}
+		}
+		
+				
+		
+		
+		
+				
+		
+	</script>
+</body>
+</html>
